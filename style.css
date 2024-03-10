@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: rgb(252, 245, 245);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.5vw;
+    margin: 0 2vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: brown;
+    font-size: 1.7vw;
+}
+
+.left {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: White;
+    cursor: pointer;
+
+}
+
+.icon {
+    display: none;
+}
+
+main {
+    width: 100%;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 8vw 0;
+}
+
+.first>div {
+
+    width: 30%;
+}
+
+.lefs {
+    font-size: 2.5vw;
+
+}
+
+.lefs button {
+    height: 4vw;
+    margin-top: 3vw;
+    width: 22vw;
+    color: orangered;
+    background-color: rgb(189, 200, 202);
+    border: 2px solid rgb(241, 21, 21);
+    cursor: pointer;
+    
+    font-size: 2vw;
+    text-decoration: none;
+}
+.lefs a{
+    text-decoration: none;
+}
+
+.lefs button:hover {
+    background-color:orange;
+    color: white;
+}
+
+.rights {
+
+    width: 100%;
+}
+
+.rights img {
+
+    width: 120%;
+    margin-right: 4vw 0;
+}
+
+.pname {
+    font-family: "Sofia", sans-serif;
+    color: rgb(80, 6, 6);
+    text-shadow: 2px 5px 4px rgba(90, 10, 42, 0.904);
+}
+
+
+#element {
+    font-family: "Sofia", sans-serif;
+    color: rgb(231, 3, 3);
+}
+
+main hr {
+    border: 0;
+    background: rgb(15, 14, 14);
+    height: 3px;
+    margin: 4vw 8vw;
+
+}
+
+.about {
+    height: 47vw;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lefta {
+    width: 30%;
+    align-items: center;
+
+
+
+}
+
+.lefta img {
+
+    width: 29vw;
+/*    border-radius: 17vw;*/
+    height: 29vw;
+    border: 2px solid black;
+    border-radius:20px;
+/*    box-shadow: 2px 0px 26px 9px rgb(180, 14, 116);*/
+}
+
+.lefta img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.hd {
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Rowdies', cursive;
+}
+
+.righta {
+    width: 40vw;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.righta h1 {
+    color: rgb(14, 12, 12);
+    font-size: 2.2vw;
+
+    text-shadow: 2px 5px 4px rgb(136, 134, 129);
+}
+
+.righta p {
+    font-size: 1.5vw;
+
+}
+
+.secounds {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vw;
+}
+
+.secounds h1 {
+    font-size: 3vw;
+}
+
+.txg {
+    color: rgb(10, 10, 10);
+
+}
+
+.secounds .box {
+    background: rgb(10, 9, 9);
+    width: 80vw;
+    height: 2px;
+    margin: 5vw 0;
+    display: flex;
+
+}
+
+.secounds .vertical {
+    background-color: rgb(12, 10, 10);
+    height: 7vw;
+    width: 1px;
+    top: 1px;
+    margin: 0 6.5vw;
+}
+
+
+
+.img-top {
+    width: 2vw;
+    position: relative;
+    top: 4vw;
+    left: -9px;
+}
+
+.vertical-t {
+    color: rgb(148, 13, 13);
+    position: relative;
+    top: 5vw;
+    font-size: 1.5vw;
+    width: 15vw;
+}
+
+.vertical-des {
+    position: relative;
+    top: 8vw;
+    color: rgb(20, 1, 27);
+    width: 10vw;
+    font-size: 1.3vw;
+}
+
+footer {
+    background-color: black;
+    height: 15vw;
+    width: 100%;
+}
+
+.project {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+
+.pro1 {
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+.pro1 h3 {
+    color: rgb(22, 19, 22);
+    font-size: 2vw;
+    text-shadow: 2px 5px 4px rgb(231, 49, 25);
+}
+
+.pro1 img {
+
+    border-radius: 2vw;
+    height: 15vw;
+    width: 26vw;
+    margin-top: 2vw;
+    box-shadow: 2px 0px 23px 3px rgb(241, 161, 13);
+}
+
+.pro1 button {
+    height: 3vw;
+    margin-top: 1vw;
+    width: 15vw;
+    color: rgb(15, 14, 14);
+    background-color: rgb(230, 236, 236);
+    border: 2px solid rgb(218, 89, 15);
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+.pro1 a{
+    text-decoration: none;
+}
+
+.pro1 button:hover {
+    background-color:orange;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.footer ul {
+
+
+    list-style: none;
+}
+
+.footer-s ul li {
+    text-decoration: none;
+    color: wheat;
+    height: 2vw;
+
+}
+
+.footer>div {
+    float: left;
+    width: 23vw;
+    justify-content: center;
+    margin-left: 8vw;
+    height: 100%;
+}
+
+.footer .footer-rights {
+
+    text-align: center;
+    color: gray;
+}
+
+.footer-f {
+    color: wheat;
+    width: 50%;
+
+}
+
+.footer-s ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+
+}
+
+.footer-s ul li a:hover {
+    color: blue;
+}
+
+.arr {
+    color: wheat;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.footer h3 {
+    margin-top: 3vw;
+    font-size: 2vw;
+}
+
+.tcon {
+    width: 28%;
+    float: left;
+    height: 8vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    border-radius: 15%;
+}
+
+.tcon i {
+    size: 2vw;
+}
+
+.tcon h3 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 2vw;
+
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tcon p {
+    font-family: "Sofia", sans-serif;
+    color: rgb(34 29 24);
+
+    font-size: 1.3vw;
+    padding: 1.3vw;
+}
+
+.contact {
+    height: 32vw;
+    width: 100%;
+
+}
+
+.contact h1 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8vw;
+}
+
+.lname {
+    font-family: "Sofia", sans-serif;
+    color: rgb(34 29 24);
+    text-align: justify;
+    width: 42%;
+    float: left;
+    margin-left: 7vw;
+}
+
+.con h3 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 2vw;
+
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+.con {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 69%;
+    height: 15%;
+    float: left;
+
+}
+
+.con h5 {
+    color: rgb(34 29 24);
+    font-weight: bold;
+    font-size: 1vw;
+
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+.icocon {
+    float: left;
+
+}
+
+.icocon i {
+    font-size: 4vw;
+}
+
+.incon {
+    float: left;
+    margin-left: 1vw;
+}
+
+.rig {
+    float: left;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.incon h3:hover {
+    color: rgb(240, 117, 72);
+}
+
+.ico {
+    display: none;
+}
+
+
+
+@media(max-width:480px) {
+
+    nav {
+        height: 8vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .ico {
+        float: right;
+        display: block;
+        font-size: 7vw;
+        margin-right: 6vw;
+    }
+    .iconm{
+        color: white;
+    }
+
+    .project {
+        display: block;
+        height: 200vw;
+    }
+
+    .pro1 h3 {
+        margin-top: 4vw;
+        font-size: 4vw;
+    }
+
+    .pro1 {
+        width: 100%;
+    }
+
+    .pro1 img {
+        height: 40vw;
+        width: 75vw;
+        margin-top: 6vw;
+    }
+
+    .first {
+        margin: 10vw 0;
+    }
+
+    .pro1 button {
+        font-size: 3vw;
+        height: 7vw;
+        margin-top: 3vw;
+        width: 26vw;
+    }
+    .contact {
+        height: 40vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+
+}
+
+
+.skil{
+        margin-left:100px;
+}
+.skil h1{
+     text-shadow: 2px 5px 4px rgba(90, 10, 42, 0.904);
+}
+.skil ul{
+    margin-left: 100px;
+    font-size:20px;
+    color: rgb(125, 75,);
+}
